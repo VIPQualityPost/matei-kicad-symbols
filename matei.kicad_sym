@@ -8894,9 +8894,9 @@
 			)
 		)
 		(symbol "SiC437_1_0"
-			(pin output line
-				(at 1.27 -22.86 90)
-				(length 2.54)
+			(pin passive line
+				(at -1.27 -22.86 90)
+				(length 2.54) hide
 				(name "SW"
 					(effects
 						(font
@@ -8912,9 +8912,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at 3.81 -22.86 90)
-				(length 2.54)
+			(pin passive line
+				(at -1.27 -22.86 90)
+				(length 2.54) hide
 				(name "SW"
 					(effects
 						(font
@@ -8930,9 +8930,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at 6.35 -22.86 90)
-				(length 2.54)
+			(pin passive line
+				(at -1.27 -22.86 90)
+				(length 2.54) hide
 				(name "SW"
 					(effects
 						(font
@@ -8948,9 +8948,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at 8.89 -22.86 90)
-				(length 2.54)
+			(pin passive line
+				(at -1.27 -22.86 90)
+				(length 2.54) hide
 				(name "SW"
 					(effects
 						(font
@@ -12814,7 +12814,7 @@
 			)
 		)
 		(symbol "XC6206_1_1"
-			(pin power_out line
+			(pin power_in line
 				(at 0 -8.89 90)
 				(length 2.54)
 				(name "GND"
